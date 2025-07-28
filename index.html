@@ -1,18 +1,400 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-  </head>
-  <body class="page">
-    <header class="header"></header>
-    <main></main>
-    <script src="./scripts/like.js"></script>
-  </body>
-</html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Закрывающий тег</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/icon-180x180.png" />
+  <link rel="apple-touch-icon" sizes="167x167" href="./images/icon-167x167.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/icon-152x152.png" />
+  <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
+
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/animations.css" />
+</head>
+
+<body class="page">
+  <header class="header headre_size">
+    <h1 class="header_title">&lt;/html&gt;</h1>
+    <p class="header_subtitle">закрывающий тег</p>
+  </header>
+  <main class="main">
+
+    <article class="article">
+      <h2 class="article_title">Тайные врата: путь к гармонии.</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/peter-thomas-ep-6kGyBSXk-unsplash.png" class="article_image filter_brightness"
+          alt="врата с высокой яркостью." />
+      </div>
+      <div class="article_info">
+        <p class="article_text">Это удивительное путешествие через ярко-крашеные ворота Киото, Япония. Каждая из них —
+          не просто архитектурный элемент, а символ благословения и добрых пожеланий. Именно поэтому коридор — условный
+          проход сквозь портал в мир, наполненный спокойствием и духовной силой. Тени, падающие на атропинку, создают
+          причудливый узор, напоминая о мимолетности времени и красоте мгновений. Этот путь приглашает остановиться,
+          вдохнуть поглубже и почувствовать гармонию природы и духовности, укоренённую в японской культуре.
+        </p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="article">
+      <h2 class="article_title">Тень и Море</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/europeana-uuXwZPqwyCY-unsplash.png" class="article_image filter_opacity"
+          alt="полупрозрачная чёрная тень." />
+      </div>
+      <div class="article_info">
+        <p class="article_text">Жил-был в далёком краю один особенный журавль по имени Тора. Он был не обычным птицей —
+          его крылья и тело были словно вырезаны из серебристого света, а длинная шея тянулась вверх, словно желая
+          коснуться неба. Каждый вечер, когда солнце опускалось за горизонт, Тора отправлялся на берег, где волны мягко
+          шептали свои тайны.
+        </p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="article">
+      <h2 class="article_title">Весенний сад в движении</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/europeana-hUTwCJEvWqs-unsplash.png" class="article_image filter_hue-rotate"
+          alt="перекрашеная абстракция" />
+      </div>
+      <div class="article_info">
+        <p class="article_text">Это яркое и живописное изображение, наполненное движением и природной красотой. На
+          переднем плане изображены два человека, сидящих под раскидистым деревом в окружении цветущих веток. В их
+          фигурах чувствуется спокойствие и умиротворение, словно они наслаждаются тёплым солнечным днём. В небе
+          простирается голубое пространство с легкими облаками, создающими ощущение свежести и свободы. Всё вокруг
+          словно напоено ароматом весны, пробуждающей природу к жизни, и передает атмосферу гармонии и спокойствия.</p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="article">
+      <h2 class="article_title">Город головоломка</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/europeana-rhkb5dmNBPQ-unsplash.png" class="article_image filter_sepia"
+          alt="состаренные рукописи" />
+      </div>
+      <div class="article_info">
+        <p class="article_text">Это изображение словно загадочный город, спрятанный в облаках. Каждая маленькая улица и
+          дом кажутся частью сложной головоломки, ведущей нас в неизвестность. В этом фантастическом мире люди и
+          архитектура сливаются в единое целое, создавая ощущение, что каждый шаг раскрывает новые тайны и красоты.
+          Такой город — место мечты и вдохновения, где каждый может найти свой путь среди бескрайних лестниц и мостов.
+        </p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="article">
+      <h2 class="article_title">Лунный свет под облаками</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/jamie-kettle-CziCVd8c9lU-unsplash.png" class="article_image filter_invert"
+          alt="инвертированный лунный свет." />
+      </div>
+      <div class="article_info">
+        <p class="article_text">Это спокойное вечернее небо, где тонкая лунная полоса словно тайная улыбка ночи прячется
+          среди пушистых облаков. Вся картина наполняет ощущением тишины и магии, будто сама природа шепчет свои секреты
+          тем, кто готов их услышать. Такой момент напоминает о красоте простых вещей и о том, как важно находить
+          волшебство в каждом закате и луне.
+        </p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="article">
+      <h2 class="article_title">Мелодия фасада: симметрия и уют в каждом окне</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/clark-van-der-beken-1GBAu3HdGVU-unsplash.png" class="article_image filter_grayscale"
+          alt="черное абстрактное здание" />
+      </div>
+      <div class="article_info">
+        <p class="article_text">Жил один молодой художник, который был очарован красотой старых зданий и их
+          уникальной архитектурой. Он часто бродил по узким улочкам старого города, ищя вдохновение для своих картин.
+          Однажды его взгляд остановился на этом особенном здании с голубыми окнами и миниатюрными балкончиками.
+
+          Каждое окно казалось ожившим глазом, наблюдающим за городом, а открытые ставни словно приглашали заглянуть
+          внутрь. Художник почувствовал, будто это здание хранит в себе множество историй — о людях, которые когда-то
+          жили здесь, о мечтах и надеждах, которые витали в воздухе.
+
+          Он решил нарисовать именно этот дом, чтобы запечатлеть его красоту и магию. Когда его картина была готова, он
+          понял, что в каждом окне скрыта частичка волшебства, и что иногда самые простые вещи — это настоящие
+          сокровища, которые стоит ценить и сохранять в сердце.
+        </p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="article">
+      <h2 class="article_title">Огненные сны</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/solen-feyissa-u-VOCC2yg9s-unsplash.png" class="article_image filter_blur"
+          alt="огненное пламя." />
+      </div>
+      <div class="article_info">
+        <p class="article_text">В глубинах этого яркого хаоса скрывается нечто загадочное. Каждая волна, каждый оттенок
+          словно шепчет о древних тайнах, о сокровищах, спрятанных в недрах этого пылающего огня. В этом огненном вихре
+          таится энергия, которая может как разрушить, так и возродить — всё зависит от того, кто осмелится погрузиться
+          в его пламя и понять его секреты. Это не просто абстракция — это ворота в неизведанный мир, где каждый взгляд
+          может открыть новую историю.
+        </p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="article">
+      <h2 class="article_title">Волшебная роща с отражением сказочного мира</h2>
+      <div class="article_image_box">
+        <span class="card_label">&lt;/html&gt;</span>
+        <img src="./images/redd-francisco-Lm5rkxzgiFQ-unsplash.png" class="article_image filter_multy"
+          alt="сказочная сакура." />
+      </div>
+      <div class="article_info">
+        <p class="article_text">Однажды в далеком царстве, среди волшебных лесов, раскинулись чудесные сады с цветущими
+          сакурами. В этом месте время словно остановилось, и каждый цветок хранил свою тайну. Говорили, что под ветвями
+          этих деревьев живут маленькие духи, охраняющие гармонию и спокойствие.
+
+          Однажды, в туманное утро, к деревьям подошла девочка по имени Луна. Она услышала шепот ветра и почувствовала,
+          что эти сакуры — не обычные цветы, а что-то особенное. Внезапно она заметила, как отражение в луже
+          превратилось в зеркало, показывающее небо с сияющими звездами и лунными тропами.
+
+          Луна шагнула в отражение и оказалась в другом мире — полном волшебных существ и чудес. Там цветущие ветви
+          превращались в мосты, а каждое цветение — в послание доброты и любви. Девочка поняла, что эти сакуры —
+          хранительницы сказочных снов, помогающие тем, кто верит в чудеса.
+
+          С тех пор Луна приходила каждое утро, чтобы слушать шепот ветра и узнавать новые сказки, хранящиеся в этих
+          волшебных садах. И каждый раз, глядя на цветущие ветви, ей казалось, что она становится частью самой сказки —
+          вечной и прекрасной.
+        </p>
+        <div class="button_block">
+          <button type="button" class="card__icon-button">
+            <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g class="heart">
+                <path class="contour"
+                  d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
+                  fill="var(--heart-contour-color)" />
+                <path class="main-body"
+                  d="M12 9H9V12H12V9ZM15 12H12V15H15V12ZM18 9H15V12H18V9ZM12 15H9V18H12V15ZM15 15H12V18H15V15ZM15 18H12V21H15V18ZM18 12H15V15H18V12ZM18 21H15V24H18V21ZM18 18H15V21H18V18ZM27 9H30V12H27V9ZM24 9H27V12H24V9ZM27 12H30V15H27V12ZM24 12H27V15H24V12ZM21 9H24V12H21V9ZM27 15H30V18H27V15ZM24 15H27V18H24V15ZM24 18H27V21H24V18ZM21 12H24V15H21V12ZM21 21H24V24H21V21ZM21 18H24V21H21V18ZM21 21H18V24H21V21ZM21 24H18V27H21V24Z"
+                  fill="none" />
+                <path class="core"
+                  d="M18 15H15V18H18V15ZM21 15H24V18H21V15ZM21 15H18V18H21V15ZM21 12H18V15H21V12ZM21 18H18V21H21V18Z"
+                  fill="none" />
+              </g>
+              <path class="sparks"
+                d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
+                fill="var(--heart-sparks-color)" />
+            </svg>
+          </button>
+          <button type="button" class="card__like-button decorated_button">
+            <span class="button__text decorated_button_text">Like</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <button class="save_button decorated_button" type="button" onclick="window['floppy_dialog'].showModal()"
+      aria-controls="floppy_dialog">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" class="mix_difference floppy_svg">
+        <use href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <span class="decorated_button_text">Нажми меня!</span>
+    </button>
+
+  </main>
+
+  <dialog id="floppy_dialog" class="floppy_dialog">
+    <div class="dialog_description">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" class="dialog_floppy_svg">
+        <use href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <p class="dialog_label">Вставьте дискету, чтобы продолжить</p>
+    </div>
+    <form method="dialog">
+      <button type="submit" class="dialog_button decorated_button">
+        <span class="decorated_button_text">OK</span>
+      </button>
+    </form>
+  </dialog>
+
+  <script src="./scripts/like.js"></script>
+</body>
+
+</htm>
