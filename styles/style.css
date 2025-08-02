@@ -323,7 +323,7 @@ body:has(.floppy_dialog[open]) {
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 376px) {
   .main,
   .header,
   .footer {
