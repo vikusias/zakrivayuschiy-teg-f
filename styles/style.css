@@ -11,15 +11,17 @@
 */
 
 .page {
-  /* min-inline-size: 320px;
-  min-block-size: 100dvb; */
+  min-block-size: 100dvb;
   font-family: var(--main-font);
   font-variation-settings: "wght" var(--text-weight);
   font-size: var(--font-size);
+
   background-image: var(--background-image);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
+  max-inline-size: 700px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -44,6 +46,10 @@
   padding-block: 128px;
   margin-block: 103px;
 }
+/*
+.header_size {
+  width: clamp(var(--content-size));
+}*/
 
 .header_title {
   font-size: var(--header-title-font-size);
@@ -78,6 +84,7 @@
 .article {
   outline: 2px solid var(--color);
   width: 100%;
+  /*  width: clamp(var(--content-size));*/
   background-color: white;
   margin-bottom: 54px;
 }
@@ -108,6 +115,7 @@
   font-weight: var(--text-weight);
   font-size: var(--font-size-card-label);
   text-shadow: 0 0 1px var(--shadow-color);
+  /*  -webkit-text-stroke: 1px var(--shadow-color);*/
   mix-blend-mode: hard-light;
   opacity: 0.5;
   z-index: 1;
@@ -158,6 +166,9 @@
 
 .filter_multy {
   filter: sepia(1) hue-rotate(264deg) saturate(289%);
+  /*
+  grayscale(1.0) invert(0.95) blur(0.01rem) hue-rotate(300deg) ;
+*/
 }
 
 .sparks {
@@ -259,8 +270,13 @@
   translate: 0%;
 }
 
+/*
+.floppy_dialog {
+}*/
+
 .floppy_dialog[open] {
   /*position: fixed;*/
+  /* inset: 0;*/
   /* display: flex;*/
   flex-shrink: 0;
   border: var(--main-border);
@@ -306,10 +322,15 @@ body:has(.floppy_dialog[open]) {
 
 .article_image {
   display: block;
+
   object-fit: cover;
   object-position: center;
   inline-size: 100%;
   max-block-size: 100%;
+  /*
+  width: 100%;
+  height: 100%;
+  object-fit: cover;*/
 }
 
 @supports (
@@ -337,6 +358,8 @@ body:has(.floppy_dialog[open]) {
   .header {
     margin-top: 27vw;
     margin-bottom: 28vw;
+    /* aspect-ratio: 235 / 109; */
+    block-size: 325px;
   }
 
   .header_title {
