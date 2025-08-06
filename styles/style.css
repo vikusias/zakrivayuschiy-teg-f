@@ -43,7 +43,7 @@
   flex-direction: column;
   outline: 2px solid var(--color);
   background-color: var(--background-color);
-  padding-block: 128px;
+  padding-block-end: 119px;
   margin-block: 103px;
 }
 /*
@@ -322,15 +322,11 @@ body:has(.floppy_dialog[open]) {
 
 .article_image {
   display: block;
-
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
   inline-size: 100%;
   max-block-size: 100%;
-  /*
-  width: 100%;
-  height: 100%;
-  object-fit: cover;*/
 }
 
 @supports (
@@ -359,18 +355,17 @@ body:has(.floppy_dialog[open]) {
     margin-top: 27vw;
     margin-bottom: 28vw;
     /* aspect-ratio: 235 / 109; */
-    block-size: 325px;
+    padding-block-start: 122px;
   }
 
   .header_title {
     line-height: 49px;
     letter-spacing: normal;
   }
-  /*
-  .header_subtitle {
-    font-size: 14px;
-  }
-*/
+
+  /* .header_subtitle {
+     font-size: 14px;
+  } */
 
   .article_info {
     padding: 20px 27px 25px 27px;
