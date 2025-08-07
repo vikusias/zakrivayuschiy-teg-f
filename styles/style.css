@@ -43,7 +43,7 @@
   flex-direction: column;
   outline: 2px solid var(--color);
   background-color: var(--background-color);
-  padding-block: 120px;
+  padding-block: 128px;
   margin-block: 103px;
 }
 /*
@@ -360,6 +360,7 @@ body:has(.floppy_dialog[open]) {
     margin-bottom: 28vw;
     /* aspect-ratio: 235 / 109; */
     padding-block-start: 122px;
+    padding-block-end: 119px;
   }
 
   .header_title {
