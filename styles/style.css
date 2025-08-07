@@ -21,7 +21,7 @@
   background-position: center;
   background-attachment: fixed;
 
-  max-inline-size: 700px;
+  /*  max-inline-size: 700px;*/
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
   flex-direction: column;
   outline: 2px solid var(--color);
   background-color: var(--background-color);
-  padding-block-end: 119px;
+  padding-block: 120px;
   margin-block: 103px;
 }
 /*
@@ -327,6 +327,10 @@ body:has(.floppy_dialog[open]) {
   object-position: center;
   inline-size: 100%;
   max-block-size: 100%;
+  /*
+  width: 100%;
+  height: 100%;
+  object-fit: cover;*/
 }
 
 @supports (
@@ -363,17 +367,17 @@ body:has(.floppy_dialog[open]) {
     letter-spacing: normal;
   }
 
-  /* .header_subtitle {
-     font-size: 14px;
-  } */
+  /* .article_description {
+  padding-block-end: 25px;
+ } */
 
   .article_info {
     padding: 20px 27px 25px 27px;
   }
 
   .card_label {
-    top: 20px;
-    right: 10px;
+    top: 45px;
+    /* right: 10px; */
   }
 
   .save_button {
